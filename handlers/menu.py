@@ -20,9 +20,9 @@ def get_xien_cang_dao_keyboard():
     # Gom nhóm theo thao tác, thêm nút Ví dụ để người dùng hiểu cách nhập
     return InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("✨ Xiên 2", callback_data="xien2"),
-            InlineKeyboardButton("✨ Xiên 3", callback_data="xien3"),
-            InlineKeyboardButton("✨ Xiên 4", callback_data="xien4"),
+            InlineKeyboardButton("2️⃣ Xiên 2", callback_data="xien2"),
+            InlineKeyboardButton("3️⃣ Xiên 3", callback_data="xien3"),
+            InlineKeyboardButton("4️⃣ Xiên 4", callback_data="xien4"),
         ],
         [
             InlineKeyboardButton("🔢 Càng 3D", callback_data="ghep_cang3d"),
